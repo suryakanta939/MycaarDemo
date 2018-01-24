@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test on firefox(failed)">
+    <classes>
+      <class name="com.Mycaar.testcases.UserTest">
+        <methods>
+          <include name="localAssesortest"/>
+          <include name="executingAfterMethod"/>
+          <include name="settingUp"/>
+          <include name="userFunction"/>
+          <include name="executingBefore"/>
+        </methods>
+      </class> <!-- com.Mycaar.testcases.UserTest -->
+    </classes>
+  </test> <!-- Test on firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

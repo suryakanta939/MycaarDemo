@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test on chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Mycaar.testcases.UserTest">
+        <methods>
+          <include name="localAssesortest"/>
+          <include name="executingAfterMethod"/>
+          <include name="executingAfterMethod"/>
+          <include name="settingUp"/>
+          <include name="settingUp"/>
+          <include name="userFunction"/>
+          <include name="executingBefore"/>
+          <include name="executingBefore"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Mycaar.testcases.UserTest -->
+    </classes>
+  </test> <!-- Test on chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60426" started-at="2018-01-23T14:34:08Z" finished-at="2018-01-23T14:35:09Z">
+    <groups>
+    </groups>
+    <test name="Test on firefox" duration-ms="60426" started-at="2018-01-23T14:34:08Z" finished-at="2018-01-23T14:35:09Z">
+      <class name="com.Mycaar.testcases.UserTest">
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc]" name="settingUp" is-config="true" duration-ms="431" started-at="2018-01-23T20:04:08Z" finished-at="2018-01-23T20:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="executingBefore()[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc]" name="executingBefore" is-config="true" duration-ms="8806" started-at="2018-01-23T20:04:09Z" finished-at="2018-01-23T20:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingBefore -->
+        <test-method status="PASS" signature="userFunction()[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc]" name="userFunction" duration-ms="11407" started-at="2018-01-23T20:04:17Z" finished-at="2018-01-23T20:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFunction -->
+        <test-method status="PASS" signature="executingAfterMethod(org.testng.ITestResult)[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc]" name="executingAfterMethod" is-config="true" duration-ms="855" started-at="2018-01-23T20:04:29Z" finished-at="2018-01-23T20:04:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFunction status=SUCCESS method=UserTest.userFunction()[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingAfterMethod -->
+        <test-method status="PASS" signature="executingBefore()[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc]" name="executingBefore" is-config="true" duration-ms="6515" started-at="2018-01-23T20:04:30Z" finished-at="2018-01-23T20:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingBefore -->
+        <test-method status="PASS" signature="localAssesortest()[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc]" name="localAssesortest" duration-ms="29020" started-at="2018-01-23T20:04:36Z" depends-on-methods="com.Mycaar.testcases.UserTest.userFunction" finished-at="2018-01-23T20:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- localAssesortest -->
+        <test-method status="PASS" signature="executingAfterMethod(org.testng.ITestResult)[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc]" name="executingAfterMethod" is-config="true" duration-ms="3150" started-at="2018-01-23T20:05:05Z" finished-at="2018-01-23T20:05:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=localAssesortest status=SUCCESS method=UserTest.localAssesortest()[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingAfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Mycaar.testcases.UserTest@6fb554cc]" name="tearDown" is-config="true" duration-ms="232" started-at="2018-01-23T20:05:08Z" finished-at="2018-01-23T20:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Mycaar.testcases.UserTest -->
+    </test> <!-- Test on firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

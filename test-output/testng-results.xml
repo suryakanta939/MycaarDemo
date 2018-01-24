@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64614" started-at="2018-01-24T04:50:57Z" finished-at="2018-01-24T04:52:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64614" started-at="2018-01-24T04:50:57Z" finished-at="2018-01-24T04:52:02Z">
+      <class name="com.Mycaar.testcases.UserTest">
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e]" name="settingUp" is-config="true" duration-ms="479" started-at="2018-01-24T10:20:57Z" finished-at="2018-01-24T10:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="executingBefore()[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e]" name="executingBefore" is-config="true" duration-ms="8360" started-at="2018-01-24T10:20:58Z" finished-at="2018-01-24T10:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingBefore -->
+        <test-method status="PASS" signature="userFunction()[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e]" name="userFunction" duration-ms="9063" started-at="2018-01-24T10:21:06Z" finished-at="2018-01-24T10:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFunction -->
+        <test-method status="PASS" signature="executingAfterMethod(org.testng.ITestResult)[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e]" name="executingAfterMethod" is-config="true" duration-ms="1983" started-at="2018-01-24T10:21:15Z" finished-at="2018-01-24T10:21:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFunction status=SUCCESS method=UserTest.userFunction()[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingAfterMethod -->
+        <test-method status="PASS" signature="executingBefore()[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e]" name="executingBefore" is-config="true" duration-ms="5678" started-at="2018-01-24T10:21:17Z" finished-at="2018-01-24T10:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingBefore -->
+        <test-method status="PASS" signature="localAssesortest()[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e]" name="localAssesortest" duration-ms="21575" started-at="2018-01-24T10:21:23Z" depends-on-methods="com.Mycaar.testcases.UserTest.userFunction" finished-at="2018-01-24T10:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- localAssesortest -->
+        <test-method status="PASS" signature="executingAfterMethod(org.testng.ITestResult)[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e]" name="executingAfterMethod" is-config="true" duration-ms="17194" started-at="2018-01-24T10:21:45Z" finished-at="2018-01-24T10:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=localAssesortest status=SUCCESS method=UserTest.localAssesortest()[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingAfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Mycaar.testcases.UserTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="259" started-at="2018-01-24T10:22:02Z" finished-at="2018-01-24T10:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Mycaar.testcases.UserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
